@@ -53,9 +53,9 @@ def calc_sa_vol():
     print("\n")
     print("With those values,")
     print("The surface area will be: {:.2f} cm^2\
-". format(2*math.pi*int(radius)*int(height)+2*math.pi*int(radius)**2))
+". format(2*math.pi*radius*height+2*math.pi*radius**2))
     print("And the volume will be: {:.2f}\
- cm^3 ". format(int(radius)**2*math.pi*int(height)))
+ cm^3 ". format(radius**2*math.pi*height))
 
 
 if __name__ == "__main__":
