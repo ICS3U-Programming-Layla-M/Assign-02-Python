@@ -16,6 +16,9 @@ def main():
 def radius_value():
     # Ask the user to input a valid value for the radius
     global radius
+    
+    # Checks for errors in the input
+    # This code was taken and modified from https://pynative.com/python-check-user-input-is-number-or-string/
     try:
         radius = float(input("To start off type\
  in the radius of the cylinder (cm): "))
@@ -34,6 +37,9 @@ def radius_value():
 def height_value():
     # Ask the user to input a valid value for the height
     global height
+    
+    # Checks for errors in the input
+    # This code was taken and modified from https://pynative.com/python-check-user-input-is-number-or-string/
     try:
         height = float(input("And now its height (cm): "))
         if (height < 0):
